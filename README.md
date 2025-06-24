@@ -84,11 +84,10 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 감성 분류 결과에 따라 각 감성(긍정/부정) 댓글에서 두드러지게 나타나는 단어들을 분석하여 대중의 인식을 심층적으로 이해할 수 있습니다.
 
-* **Positive Sentiment Keywords:** (Add actual words after analysis, e.g.)
+* **긍정적인 분류 단어:** (Add actual words after analysis, e.g.)
     * `America`, `strong`, `great`, `win`, `necessary`, `right`
-* **Negative Sentiment Keywords:** (Add actual words after analysis, e.g.)
+* **부정적인 분류 단어:** (Add actual words after analysis, e.g.)
     * `trade war`, `economy`, `concern`, `loss`, `bad`, `fear`
-* **Visualization:** Consider adding a word cloud for each sentiment or bar charts of top keywords.
 
 ## 결론 및 소감
 
