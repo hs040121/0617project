@@ -34,8 +34,8 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 ### 3.1. 모델 개요
 
-* **모델:** MobileBERT For Sequence Classification (`google/mobilebert-uncased`)
-* **전이 학습 (Transfer Learning):** 대규모 텍스트 코퍼스로 사전 학습된 MobileBERT를 사용하여 소량의 라벨링 데이터로도 효율적인 감성 분류 성능을 달성합니다.
+* **모델:** MobileBERT
+
 
 ### 3.2. 학습 데이터 분할
 
