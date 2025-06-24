@@ -1,9 +1,7 @@
 # MobileBERT 기반 트럼프 관세 유튜브 댓글 감성 분석 프로젝트
 ![개요](./trumpzz.png)]
 
-https://img.shields.io/badge/pycharm-%23000000.svg?&amp;style=for-the-badge&amp;logo=pycharm&amp;logoColor=white/>https://img.shields.io/badge/python-%233776AB.svg?&amp;style=for-the-badge&amp;logo=python&amp;logoColor=white />=https://img.shields.io/badge/pytorch-%23EE4C2C.svg?&amp;style=for-the-badge&amp;logo=pytorch&amp;logoColor=white />
-
-📊 MobileBERT 기반 트럼프 관세 문제 유튜브 
+<img src="https://img.shields.io/badge/pycharm-%23000000.svg?&style=for-the-badge&logo=pycharm&logoColor=white" /> <img src="https://img.shields.io/badge/python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/pytorch-%23EE4C2C.svg?&style=for-the-badge&logo=pytorch&logoColor=white" />
 ## 프로젝트 개요
 
 본 프로젝트는 MobileBERT 모델을 활용하여 트럼프 행정부의 관세 정책에 대한 **유튜브 댓글의 감성(긍정/부정)을 분석**합니다. 대규모 온라인 여론을 데이터 기반으로 파악하고, 정책에 대한 대중의 정서와 핵심적인 영향 요인을 이해하는 것을 목표로 합니다
