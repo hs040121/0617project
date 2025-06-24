@@ -58,11 +58,7 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 훈련 과정에서 모델의 Loss 및 Accuracy 변화는 다음과 같습니다.
 
-| Epoch | Training Loss       | Training Accuracy   | Validation Loss     | Validation Accuracy |
-| :---- | :------------------ | :------------------ | :------------------ | :------------------ |
-| 1     | `{YOUR_TRAIN_LOSS_E1}`  | `{YOUR_TRAIN_ACC_E1}%` | `{YOUR_VAL_LOSS_E1}`  | `{YOUR_VAL_ACC_E1}%` |
-| 2     | `{YOUR_TRAIN_LOSS_E2}`  | `{YOUR_TRAIN_ACC_E2}%` | `{YOUR_VAL_LOSS_E2}`  | `{YOUR_VAL_ACC_E2}%` |
-| 3     | `{YOUR_TRAIN_LOSS_E3}`  | `{YOUR_TRAIN_ACC_E3}%` | `{YOUR_VAL_LOSS_E3}`  | `{YOUR_VAL_ACC_E3}%` |
+![Label Distribution](1.png)
 
 ### 3.5. 전체 데이터셋 감성 추론
 
@@ -77,7 +73,7 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 수동 라벨링된 5,001건과 모델로 추론된 16,959건을 합산한 **총 21,960건**의 유튜브 댓글 감성 분포는 다음과 같습니다.
 
-![개요](./trumpzz.png)]
+![Label Distribution](label_distribution.png)
 
 * **긍정 (Positive):** 약 13,827건 (약 63%)
 * **부정 (Negative):** 약 8,133건 (약 37%)
