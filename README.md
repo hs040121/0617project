@@ -1,5 +1,5 @@
 # 📈 MobileBERT 기반 트럼프 관세 유튜브 댓글 감성 분석 프로젝트
-
+[![실행 영상](./trumpzz.png)]
 ## 🚀 프로젝트 개요
 
 본 프로젝트는 MobileBERT 모델을 활용하여 트럼프 행정부의 관세 정책에 대한 **유튜브 댓글의 감성(긍정/부정)을 분석**합니다. 대규모 온라인 여론을 데이터 기반으로 파악하고, 정책에 대한 대중의 정서와 핵심적인 영향 요인을 이해하는 것을 목표로 합니다.
@@ -58,8 +58,6 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 훈련 과정에서 모델의 Loss 및 Accuracy 변화는 다음과 같습니다.
 
-**![Training Results Plot](assets/trumpzz.png)**
-
 | Epoch | Training Loss       | Training Accuracy   | Validation Loss     | Validation Accuracy |
 | :---- | :------------------ | :------------------ | :------------------ | :------------------ |
 | 1     | `{YOUR_TRAIN_LOSS_E1}`  | `{YOUR_TRAIN_ACC_E1}%` | `{YOUR_VAL_LOSS_E1}`  | `{YOUR_VAL_ACC_E1}%` |
@@ -79,7 +77,7 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 수동 라벨링된 5,001건과 모델로 추론된 16,959건을 합산한 **총 21,960건**의 유튜브 댓글 감성 분포는 다음과 같습니다.
 
-**![Label Distribution Plot](assets/label_distribution.png)**
+![Label Distribution](label_distribution.png)
 
 * **긍정 (Positive):** 약 13,827건 (약 63%)
 * **부정 (Negative):** 약 8,133건 (약 37%)
@@ -112,6 +110,6 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 ### 💡 다음 단계 (Optional)
 
-* **Time-series Sentiment Analysis:** 댓글 작성 시점을 활용하여 주요 정책 발표 시점에 따른 감성 변화 추이 분석.
-* **Multilingual Expansion:** MobileBERT의 다국어 버전 또는 다른 언어 모델을 활용하여 다양한 국가의 여론 분석.
-* **Detailed Performance Metrics:** Precision, Recall, F1-score, Confusion Matrix 등 추가 지표 분석.
+* **Time-series Sentiment Analysis:** Analyze sentiment trends over time by leveraging comment publication dates, especially around key policy announcements.
+* **Multilingual Expansion:** Extend analysis to other languages using multilingual BERT or language-specific models.
+* **Detailed Performance Metrics:** Include Precision, Recall, F1-score, and Confusion Matrix for a more comprehensive model evaluation.
