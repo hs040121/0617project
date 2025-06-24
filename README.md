@@ -73,7 +73,7 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 수동 라벨링된 5,000건과 모델로 추론된 16,960건을 합산한 **총 21,960건**의 유튜브 댓글 감성 분포는 다음과 같습니다.
 
-![Label Distribution](label_distribution.png)
+![Label Distribution](전체데이터.png)
 
 * **긍정 (Positive):** 약 13,827건 (약 63%)
 * **부정 (Negative):** 약 8,133건 (약 37%)
