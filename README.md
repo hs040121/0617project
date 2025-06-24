@@ -1,7 +1,7 @@
 # MobileBERT 기반 트럼프 관세 유튜브 댓글 감성 분석 프로젝트
 ![개요](./trumpzz.png)]
 
-&lt;img src="https://img.shields.io/badge/pycharm-%23000000.svg?&amp;style=for-the-badge&amp;logo=pycharm&amp;logoColor=white" /> &lt;img src="https://img.shields.io/badge/python-%233776AB.svg?&amp;style=for-the-badge&amp;logo=python&amp;logoColor=white" /> &lt;img src="https://img.shields.io/badge/pytorch-%23EE4C2C.svg?&amp;style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" />
+https://img.shields.io/badge/pycharm-%23000000.svg?&amp;style=for-the-badge&amp;logo=pycharm&amp;logoColor=white/>https://img.shields.io/badge/python-%233776AB.svg?&amp;style=for-the-badge&amp;logo=python&amp;logoColor=white />=https://img.shields.io/badge/pytorch-%23EE4C2C.svg?&amp;style=for-the-badge&amp;logo=pytorch&amp;logoColor=white />
 
 📊 MobileBERT 기반 트럼프 관세 문제 유튜브 
 ## 프로젝트 개요
