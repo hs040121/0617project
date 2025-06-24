@@ -1,16 +1,16 @@
-# 📈 MobileBERT 기반 트럼프 관세 유튜브 댓글 감성 분석 프로젝트
+# MobileBERT 기반 트럼프 관세 유튜브 댓글 감성 분석 프로젝트
 ![실행 영상](./trumpzz.png)]
 ## 🚀 프로젝트 개요
 
 본 프로젝트는 MobileBERT 모델을 활용하여 트럼프 행정부의 관세 정책에 대한 **유튜브 댓글의 감성(긍정/부정)을 분석**합니다. 대규모 온라인 여론을 데이터 기반으로 파악하고, 정책에 대한 대중의 정서와 핵심적인 영향 요인을 이해하는 것을 목표로 합니다.
 
-## ✨ 주요 목표
+## 주요 목표
 
 * 트럼프 관세 정책 관련 유튜브 댓글의 감성(긍정/부정) 자동 분류.
 * 감성 분류에 결정적인 영향을 미치는 주요 단어 및 표현 식별.
 * 대중의 인식을 다각도로 분석하여 정책 평가 및 여론 이해에 기여.
 
-## 📁 데이터셋
+## 데이터셋
 
 ### 2.1. 데이터 수집
 
@@ -30,7 +30,7 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
     * 긍정: `{YOUR_POSITIVE_COUNT_IN_5001}` 개
     * 부정: `{YOUR_NEGATIVE_COUNT_IN_5001}` 개
 
-## 🛠️ 모델 학습 및 추론
+## 모델 학습 및 추론
 
 ### 3.1. 모델 개요
 
@@ -71,7 +71,7 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 * **총 추론 대상:** 16,959건
 * **추론 정확도 (검증 세트 Accuracy 기반):** 약 `{YOUR_VAL_ACC_BEST}%` (학습된 모델의 검증 정확도에 준함)
 
-## 📊 분석 결과
+## 분석 결과
 
 ### 4.1. 최종 감성 분포
 
@@ -94,7 +94,7 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
     * `trade war`, `economy`, `concern`, `loss`, `bad`, `fear`
 * **Visualization:** Consider adding a word cloud for each sentiment or bar charts of top keywords.
 
-## 🎉 결론 및 소감
+## 결론 및 소감
 
 ### 5.1. 핵심 성과
 
@@ -104,12 +104,6 @@ Google YouTube Data API를 활용하여 트럼프 관세 문제와 관련된 유
 
 ### 5.2. 개인적인 소감
 
-이번 프로젝트는 데이터 수집부터 정제, 라벨링, 모델 학습 및 분석에 이르는 데이터 파이프라인 전반을 직접 경험하며 많은 것을 배울 수 있는 기회였습니다. 특히, 단 '5,001건'이라는 비교적 적은 수의 수작업 라벨링 데이터만으로 '약 87%' 이상의 정확도를 달성한 것은 매우 인상 깊은 결과였습니다. 영어 댓글의 미묘한 뉘앙스를 이해하고 직접 라벨링하는 과정은 쉽지 않았지만, 이 과정 자체가 데이터의 본질을 이해하고 프로젝트 목적을 달성하기 위한 중요한 단계임을 깨달았습니다. 단순히 코드를 작성하는 것을 넘어, 프로젝트의 목표를 설정하고 이를 달성하기 위한 전체 과정을 직접 경험하며 한계를 극복하고 유의미한 결과를 도출했다는 점에 큰 보람을 느낍니다.
+이번 프로젝트는 데이터 수집부터 정제, 라벨링, 모델 학습 및 분석에 이르는 데이터 파이프라인 전반을 직접 경험하며 많은 것을 배울 수 있는 기회였습니다. 특히, 단 '5,001건'이라는 비교적 적은 수의 수작업 라벨링 데이터만으로 '약 97%' 이상의 정확도를 달성한 것은 매우 인상 깊은 결과였습니다. 영어 댓글의 미묘한 뉘앙스를 이해하고 직접 라벨링하는 과정은 쉽지 않았지만, 이 과정 자체가 데이터의 본질을 이해하고 프로젝트 목적을 달성하기 위한 중요한 단계임을 깨달았습니다. 단순히 코드를 작성하는 것을 넘어, 프로젝트의 목표를 설정하고 이를 달성하기 위한 전체 과정을 직접 경험하며 한계를 극복하고 유의미한 결과를 도출했다는 점에 큰 보람을 느낍니다.
 
----
 
-### 💡 다음 단계 (Optional)
-
-* **Time-series Sentiment Analysis:** Analyze sentiment trends over time by leveraging comment publication dates, especially around key policy announcements.
-* **Multilingual Expansion:** Extend analysis to other languages using multilingual BERT or language-specific models.
-* **Detailed Performance Metrics:** Include Precision, Recall, F1-score, and Confusion Matrix for a more comprehensive model evaluation.
